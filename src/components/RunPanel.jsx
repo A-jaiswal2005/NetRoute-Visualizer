@@ -98,19 +98,19 @@ export default function RunPanel({
         </button>
 
         <label className="ml-2 flex items-center gap-2 text-xs text-muted">
-    speed
-    <input
-      type="range"
-      min="150"
-      max="1500"
-      step="50"
-      /* Invert the visual slider position based on the delay */
-      value={1650 - speed} 
-      /* Invert the number back to a millisecond delay when saving to state */
-      onChange={(e) => setSpeed(1650 - Number(e.target.value))}
-      className="accent-signal"
-    />
-  </label>
+  speed
+  <input
+    type="range"
+    min="150"
+    max="1500"
+    step="50"
+    value={speed}
+    onChange={(e) => setSpeed(Number(e.target.value))}
+    className="accent-signal"
+    /* This natively flips the slider so dragging right lowers the value (makes it faster) */
+    style={{ direction: 'rtl' }} 
+  />
+</label>
 
         <span className="w-16 shrink-0 text-right text-xs text-muted">
           {total > 0 ? `${index + 1}/${total}` : '0/0'}
