@@ -1,4 +1,4 @@
-# Graph Algorithm Visualizer
+# 🌐 NetRoute Visualizer
 
 A single-page React (Vite) + Tailwind app that animates BFS, DFS, Dijkstra's
 Shortest Path, Kruskal's MST, and Prim's MST on a weighted graph, step by
