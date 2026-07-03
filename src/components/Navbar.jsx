@@ -6,10 +6,10 @@ export default function Navbar({ activeId, onSelect, onNewGraph }) {
     <nav className="border-b border-border bg-panel/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-2">
-          <span className="h-2.5 w-2.5 rounded-full bg-signal shadow-glow animate-pulse-slow" />
+          <span className="text-xl animate-pulse-slow">🌐</span>
           <h1 className="font-bold tracking-tight text-text">
-            Graph<span className="text-signal">_</span>Visualizer
-          </h1>
+          NetRoute<span className="text-signal">-</span>Visualizer
+        </h1>
         </div>
 
         <div className="flex flex-1 flex-wrap gap-2 sm:justify-center">
