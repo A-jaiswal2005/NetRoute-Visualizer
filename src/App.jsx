@@ -101,8 +101,7 @@ export default function App() {
           </main>
 
           <footer className="border-t border-border px-4 py-3 text-center text-[11px] text-muted">
-            Modular execution engine — algorithms emit steps, the player animates them. Add new
-            algorithms in <code className="text-signal-dim">src/algorithms/</code> without touching the UI.
+            Ankit Jaiswal @NIT JALANDHAR
           </footer>
         </div>
       )}
